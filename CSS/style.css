@@ -1,0 +1,20 @@
+#homeTitle{
+    border: 10px solid whitesmoke;
+    width: 500px;
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    font-size: 100px;
+
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    
+    text-align: center;
+    align-content: center;
+}
+
+.navbar{
+    position: sticky !important;
+    top: 0;
+}
