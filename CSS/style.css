@@ -1,3 +1,8 @@
+body{
+
+    height: 100vh !important;
+}
+
 #homeTitle{
     border: 10px solid whitesmoke;
     width: 500px;
@@ -17,4 +22,10 @@
 .navbar{
     position: sticky !important;
     top: 0;
+}
+
+.backBtn{
+    position: fixed;
+    top: 5px;
+    left: 10px;
 }
