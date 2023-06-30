@@ -1,7 +1,12 @@
 body{
 
     height: 100vh !important;
+
+    background-image: url(../Media/undefined\ -\ Imgur.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 #homeTitle{
     border: 10px solid whitesmoke;
