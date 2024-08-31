@@ -5,6 +5,7 @@ body{
     background-image: url(../Media/undefined\ -\ Imgur.gif);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -34,3 +35,19 @@ body{
     top: 5px;
     left: 10px;
 }
+
+.homeCards{
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#carousel1{
+    width: 50rem;
+    height: 25rem;
+    height: auto;
+    align-content: center;
+    position: relative;
+    margin-top: 10%;
+}
+
