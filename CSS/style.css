@@ -42,12 +42,30 @@ body{
     margin-right: auto;
 }
 
-#carousel1{
-    width: 50rem;
-    height: 25rem;
+#carousel1, #carousel2, #carousel3{
+    width: 9;
+    height: 16;
     height: auto;
     align-content: center;
     position: relative;
     margin-top: 10%;
+    margin-bottom: 10%;
 }
 
+.carousel-control-prev, 
+.carousel-control-next{
+    filter: invert(1);
+    /* background-image: none;
+    color: black;
+    background-color: black; */
+}
+
+#carousel1 > .carousel-inner > .carousel-item > img{
+    height: 900px;
+    width: 1600rem;
+    /* width 16%; */
+}
+
+.carContainer{
+    width: 1600px;
+}
