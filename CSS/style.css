@@ -26,8 +26,9 @@ body{
 }
 
 .navbar{
-    position: sticky !important;
+    position:fixed !important;
     top: 0;
+    width: 100%;
 }
 
 .backBtn{
@@ -49,7 +50,7 @@ body{
     align-content: center;
     position: relative;
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 }
 
 .carousel-control-prev, 
@@ -68,4 +69,6 @@ body{
 
 .carContainer{
     width: 1600px;
+    padding-bottom: 1%;
+
 }
